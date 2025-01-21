@@ -1,0 +1,11 @@
+
+/* share style */
+.display-flex{
+    display: flex;
+}
+.primary-color{
+    color:#3A3A3A;
+}
+.primary-btn{
+    border-radius: 41px;
+}

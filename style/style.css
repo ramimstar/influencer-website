@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* nav style */
+.header {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.nav {
+  flex-direction: row;
+  margin-top: 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-list {
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-list li {
+  margin-left: 34px;
+  font-size: 1rem;
+  font-weight: 600;
+  list-style: none;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #3A3A3A;
+}
+
+.nav-shopping {
+  height: 36px;
+  width: 36px;
+  filter: grayscale(100%);
+}
+
+.nav-search {
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+}
+
+/* banner style */
+.banner {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.banner-content {
+  max-width: 576px;
+}
+
+.banner-title {
+  font-size: 3.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.banner-description {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.banner-img {
+  max-width: 475px;
+  max-height: 475px;
+  background-image: url(../images/Circle\ design.svg);
+  background-position: center;
+}
+
+button {
+  background-color: #E02C6D;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 26px;
+
+}
+
+/* affiliate logo style section */
+
+.affiliate-site {
+  max-width: 275px;
+  margin: 0px auto;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 0px 4px 0px;
+}
+
+.affiliate-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; 
+  padding: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 69px;
+  padding: 35px 35px;
+
+}
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.grid-item img{
+  max-width: 100%;
+  max-height: 50px;
+}
